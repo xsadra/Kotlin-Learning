@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fd0da40-4814-4c1f-8b65-f798f3c6620a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/function/Functions-p3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/function/Functions-p4.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Functions-p2.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/function/Functions-p2.kt">
+      <file leaf-file-name="Functions-p4.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/function/Functions-p4.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Functions-p3.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/function/Functions-p3.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="436">
+              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -56,6 +47,7 @@
         <option value="$PROJECT_DIR$/src/function/Functions.kt" />
         <option value="$PROJECT_DIR$/src/function/Functions-p2.kt" />
         <option value="$PROJECT_DIR$/src/function/Functions-p3.kt" />
+        <option value="$PROJECT_DIR$/src/function/Functions-p4.kt" />
       </list>
     </option>
   </component>
@@ -133,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.function.Functions_p3Kt">
+  <component name="RunManager" selected="Kotlin.function.Functions_p4Kt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -183,6 +175,16 @@
       <option name="MAIN_CLASS_NAME" value="function.Functions_p3Kt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
+    <configuration name="function.Functions_p4Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin-Learning" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="function.Functions_p4Kt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration name="main.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Learning" />
       <option name="VM_PARAMETERS" />
@@ -220,9 +222,11 @@
       <item itemvalue="Kotlin.function.FunctionsKt" />
       <item itemvalue="Kotlin.function.Functions_p2Kt" />
       <item itemvalue="Kotlin.function.Functions_p3Kt" />
+      <item itemvalue="Kotlin.function.Functions_p4Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.function.Functions_p4Kt" />
         <item itemvalue="Kotlin.function.Functions_p3Kt" />
         <item itemvalue="Kotlin.function.Functions_p2Kt" />
         <item itemvalue="Kotlin.function.FunctionsKt" />
@@ -240,12 +244,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528760036221</updated>
-      <workItem from="1528760039417" duration="8070000" />
+      <workItem from="1528760039417" duration="10068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8070000" />
+    <option name="totallyTimeSpent" value="10068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -262,7 +266,7 @@
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32905984" />
       <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.24899329" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.15384616" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.15384616" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1590604" />
@@ -355,6 +359,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="1495" column="34" selection-start-line="1495" selection-start-column="34" selection-end-line="1495" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/function/Functions-p4.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
         </state>
       </provider>
     </entry>
