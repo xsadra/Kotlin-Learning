@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fd0da40-4814-4c1f-8b65-f798f3c6620a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exception/ExceptionHandling.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/List.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ExceptionHandling.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/exception/ExceptionHandling.kt">
+      <file leaf-file-name="List.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/collection/List.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="478">
+              <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -51,6 +50,7 @@
         <option value="$PROJECT_DIR$/src/Main.kt" />
         <option value="$PROJECT_DIR$/src/ExceptionHandling.kt" />
         <option value="$PROJECT_DIR$/src/exception/ExceptionHandling.kt" />
+        <option value="$PROJECT_DIR$/src/collection/List.kt" />
       </list>
     </option>
   </component>
@@ -68,6 +68,9 @@
     <option name="y" value="126" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -121,6 +124,7 @@
       <recent name="C:\Users\Sadra\IdeaProjects\Kotlin-Learning\src\function" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sadra\IdeaProjects\Kotlin-Learning\src\collection" />
       <recent name="C:\Users\Sadra\IdeaProjects\Kotlin-Learning\src" />
       <recent name="C:\Users\Sadra\IdeaProjects\Kotlin-Learning\src\function" />
     </key>
@@ -137,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.exception.ExceptionHandlingKt">
+  <component name="RunManager" selected="Kotlin.collection.ListKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -167,6 +171,16 @@
       <option name="MAIN_CLASS_NAME" value="collection.CollectionKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
+    <configuration name="collection.ListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin-Learning" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="collection.ListKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration name="exception.ExceptionHandlingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Learning" />
       <option name="VM_PARAMETERS" />
@@ -175,16 +189,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="exception.ExceptionHandlingKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration name="function.FunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin-Learning" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="function.FunctionsKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="function.Functions_p2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -230,19 +234,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.function.FunctionsKt" />
       <item itemvalue="Kotlin.function.Functions_p2Kt" />
       <item itemvalue="Kotlin.function.Functions_p3Kt" />
       <item itemvalue="Kotlin.collection.CollectionKt" />
       <item itemvalue="Kotlin.exception.ExceptionHandlingKt" />
+      <item itemvalue="Kotlin.collection.ListKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.collection.ListKt" />
         <item itemvalue="Kotlin.exception.ExceptionHandlingKt" />
         <item itemvalue="Kotlin.collection.CollectionKt" />
         <item itemvalue="Kotlin.function.Functions_p3Kt" />
         <item itemvalue="Kotlin.function.Functions_p2Kt" />
-        <item itemvalue="Kotlin.function.FunctionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -256,12 +260,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528760036221</updated>
-      <workItem from="1528760039417" duration="11593000" />
+      <workItem from="1528760039417" duration="13349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11593000" />
+    <option name="totallyTimeSpent" value="13349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -269,7 +273,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.17378917" />
+      <window_info anchor="bottom" id="Messages" order="0" visible="true" weight="0.12535612" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -277,11 +281,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32905984" />
-      <window_info anchor="right" id="Run" order="9" visible="true" weight="0.24899329" />
-      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.27065527" />
+      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.2557047" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.27065527" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1590604" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1590604" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -383,15 +387,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collection/Collection.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
+        <state relative-caret-position="308">
           <caret line="29" column="18" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exception/ExceptionHandling.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="66">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/List.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
         </state>
       </provider>
     </entry>
