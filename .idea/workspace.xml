@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fd0da40-4814-4c1f-8b65-f798f3c6620a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/Map.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Classes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="List.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collection/List.kt">
+      <file leaf-file-name="Classes.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classes/Classes.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/collection/Map.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="144">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -61,6 +53,7 @@
         <option value="$PROJECT_DIR$/src/exception/ExceptionHandling.kt" />
         <option value="$PROJECT_DIR$/src/collection/List.kt" />
         <option value="$PROJECT_DIR$/src/collection/Map.kt" />
+        <option value="$PROJECT_DIR$/src/classes/Classes.kt" />
       </list>
     </option>
   </component>
@@ -108,12 +101,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Kotlin-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kotlin-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -134,6 +121,7 @@
       <recent name="C:\Users\Sadra\IdeaProjects\Kotlin-Learning\src\function" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sadra\IdeaProjects\Kotlin-Learning\src\classes" />
       <recent name="C:\Users\Sadra\IdeaProjects\Kotlin-Learning\src\collection" />
       <recent name="C:\Users\Sadra\IdeaProjects\Kotlin-Learning\src" />
       <recent name="C:\Users\Sadra\IdeaProjects\Kotlin-Learning\src\function" />
@@ -151,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.collection.MapKt">
+  <component name="RunManager" selected="Kotlin.classes.ClassesKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -170,6 +158,16 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="classes.ClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin-Learning" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="classes.ClassesKt" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="collection.CollectionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Learning" />
@@ -211,16 +209,6 @@
       <option name="MAIN_CLASS_NAME" value="exception.ExceptionHandlingKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="function.Functions_p3Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin-Learning" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="function.Functions_p3Kt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -244,19 +232,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.function.Functions_p3Kt" />
       <item itemvalue="Kotlin.collection.CollectionKt" />
       <item itemvalue="Kotlin.exception.ExceptionHandlingKt" />
       <item itemvalue="Kotlin.collection.ListKt" />
       <item itemvalue="Kotlin.collection.MapKt" />
+      <item itemvalue="Kotlin.classes.ClassesKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.classes.ClassesKt" />
         <item itemvalue="Kotlin.collection.MapKt" />
         <item itemvalue="Kotlin.collection.ListKt" />
         <item itemvalue="Kotlin.exception.ExceptionHandlingKt" />
         <item itemvalue="Kotlin.collection.CollectionKt" />
-        <item itemvalue="Kotlin.function.Functions_p3Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +263,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15172000" />
+    <option name="totallyTimeSpent" value="16522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -292,7 +280,7 @@
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32905984" />
       <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.2557047" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.27065527" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.16239317" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1590604" />
@@ -305,10 +293,14 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.12535612" />
+      <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +311,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/classes/Classes.kt</url>
+          <line>3</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -371,13 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/function/Functions-p3.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/Basic.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -418,8 +411,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collection/Map.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="814">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/function/Functions-p3.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7128" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/a.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Prints.kt" />
+    <entry file="file://$PROJECT_DIR$/out/production/Kotlin-Learning/main/MainKt.class" />
+    <entry file="file://$PROJECT_DIR$/src/Function.kt" />
+    <entry file="file://$PROJECT_DIR$/src/function/Functions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="1495" column="34" selection-start-line="1495" selection-start-column="34" selection-end-line="1495" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/function/Functions-p2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/Basic.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="n#!!block;n#sample08#0" />
+            <element signature="n#!!block;n#sample07#0" />
+            <element signature="n#!!block;n#sample06#0" />
+            <element signature="n#!!block;n#sample05#0" />
+            <element signature="n#!!block;n#sample04#0" />
+            <element signature="n#!!block;n#sample03#0" />
+            <element signature="n#!!block;n#sample02#0" />
+            <element signature="n#!!block;n#sample01#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/Collection.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exception/ExceptionHandling.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/function/Functions-p3.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/Map.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/List.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Classes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
