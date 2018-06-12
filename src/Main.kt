@@ -1,8 +1,6 @@
 package main
 
 import java.util.Random
-import java.util.function.Consumer
-import kotlin.math.sqrt
 
 fun main(args: Array<String>) {
     sample01()
@@ -14,12 +12,6 @@ fun main(args: Array<String>) {
     sample07()
     sample08()
 }
-fun sample(){
-    prnt("\n\t\t\t{Ranges}\n")
-
-}
-
-
 
 fun sample08(){
     prnt("\n\t\t\t{Loops}\n")
