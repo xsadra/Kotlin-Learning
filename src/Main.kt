@@ -5,30 +5,17 @@ import java.util.function.Consumer
 import kotlin.math.sqrt
 
 fun main(args: Array<String>) {
+    sample01()
+    sample02()
+    sample03()
+    sample04()
+    sample05()
+    sample06()
+    sample07()
     sample08()
 }
 fun sample(){
     prnt("\n\t\t\t{Ranges}\n")
-
-}
-fun sample07(){
-    prnt(message = "\n\t\t\t{Conditional}\n")
-
-    val age = 8
-
-    if (age < 5) prnt("Case 1")
-    else if (age == 5) prnt("Case 2")
-    else if (age > 5) {
-        prnt("Case 3: ${age - 5}")
-    }
-    else prnt("Case 4")
-
-    when(age){
-        0,1,2,3,4 -> prnt("Case 1")
-        5-> prnt("Case 2")
-        in 6..20-> prnt("Case 3: ${age - 5}")
-        else -> prnt("Case 4")
-    }
 
 }
 
@@ -55,6 +42,37 @@ fun sample08(){
         prnt("Odd {$x}")
 
         if (x == 15) break
+    }
+
+    var arr: Array<Int> = arrayOf(3,6,9)
+
+    for (i in arr.indices){
+        prnt("Mult 3 : ${arr[i]}")
+        prnt("-3 * ${i+1} = ${arr[i]}")
+    }
+
+for ((index,value) in arr.withIndex()){
+    prnt("Index: ${index}, Value: ${value}")
+}
+
+}
+fun sample07(){
+    prnt(message = "\n\t\t\t{Conditional}\n")
+
+    val age = 8
+
+    if (age < 5) prnt("Case 1")
+    else if (age == 5) prnt("Case 2")
+    else if (age > 5) {
+        prnt("Case 3: ${age - 5}")
+    }
+    else prnt("Case 4")
+
+    when(age){
+        0,1,2,3,4 -> prnt("Case 1")
+        5-> prnt("Case 2")
+        in 6..20-> prnt("Case 3: ${age - 5}")
+        else -> prnt("Case 4")
     }
 
 }
