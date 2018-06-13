@@ -1,6 +1,5 @@
 package classes
 
-
 fun main(args: Array<String>) {
     // Classes
 
@@ -11,6 +10,11 @@ fun main(args: Array<String>) {
     // Inheritance
     val spot = Dog("Spot", 20.0,14.5, "Sadra")
     spot.getInfo()
+
+    // Interface
+    val tweety = Bird("Tweety", true)
+    tweety.fly(10.0)
+
 }
 
 private fun prnt(message: Any?) = println(message.toString())
@@ -39,5 +43,18 @@ class Dog(name: String,
           var owner: String) : Animal(name, height, weight){
     override fun getInfo() : Unit {
         prnt("$name is $height tall and weight $weight and is owned by $owner")
+    }
+}
+
+interface Flyable{
+    var flies: Boolean
+    fun fly(distMiles: Double): Unit
+}
+
+class Bird constructor(val name: String,
+                       override var flies: Boolean = true)
+    : Flyable{
+    override fun fly(distMiles: Double) {
+        if (flies) prnt("$name flies $distMiles miles.")
     }
 }
