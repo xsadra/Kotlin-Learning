@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fd0da40-4814-4c1f-8b65-f798f3c6620a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classes/Classes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Classes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Classes.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,14 @@
       <file leaf-file-name="Classes.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/classes/Classes.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="478">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="23" />
+              <folding>
+                <element signature="n#Animal#0;n#Animal#0" />
+                <element signature="n#!!block;n#Animal#0" />
+                <element signature="e#251#267#0" />
+                <element signature="n#!!block;n#getInfo#0;n#!!block;n#Animal#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -263,7 +268,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16522000" />
+    <option name="totallyTimeSpent" value="17443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -279,8 +284,8 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32905984" />
-      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.2557047" />
-      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.16239317" />
+      <window_info anchor="right" id="Run" order="9" visible="true" weight="0.30536914" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.17521368" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1590604" />
@@ -311,14 +316,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/classes/Classes.kt</url>
-          <line>3</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
   </component>
@@ -511,8 +508,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/Classes.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="478">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="n#Animal#0;n#Animal#0" />
+            <element signature="n#!!block;n#Animal#0" />
+            <element signature="e#251#267#0" />
+            <element signature="n#!!block;n#getInfo#0;n#!!block;n#Animal#0" />
+          </folding>
         </state>
       </provider>
     </entry>
